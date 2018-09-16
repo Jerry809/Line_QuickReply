@@ -30,11 +30,11 @@ namespace QuickReplyTest
 
             //在TextMessage物件的quickReply屬性中加入items
             m.quickReply.items.Add(
-                 new isRock.LineBot.QuickReplyMessaeAction(
+                 new isRock.LineBot.QuickReplyMessageAction(
                      $"一般標籤", "點選後顯示的text文字"));
 
             m.quickReply.items.Add(
-             new isRock.LineBot.QuickReplyMessaeAction(
+             new isRock.LineBot.QuickReplyMessageAction(
                  $"有圖示的標籤", "點選後顯示的text文字", new Uri(IconUrl)));
             //加入QuickReplyDatetimePickerAction
             m.quickReply.items.Add(
